@@ -224,3 +224,7 @@ body {
 #card-btn-cancel button:active {
   color: var(--neutral-dark-blue);
 }
+
+.attribution {
+  text-align: center;
+}

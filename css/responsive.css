@@ -1,0 +1,97 @@
+@media only screen and (max-width: 600px) {
+  body {
+    width: 100%;
+  }
+
+  #main {
+    width: 375px;
+    height: 709px;
+  }
+
+  #card {
+    width: 327px;
+    height: 567px;
+  }
+
+  #card-img {
+    width: 327px;
+    height: 160px;
+  }
+
+  #card-img img {
+    width: 327px;
+    height: 160px;
+  }
+
+  #card-title {
+    width: 263px;
+    height: 29px;
+    font-size: 22px;
+    line-height: 29px;
+  }
+
+  #card-subtitle {
+    width: 263px;
+    height: 75px;
+    font-size: 15px;
+    line-height: 25px;
+  }
+
+  #card-annual-plan {
+    width: 279px;
+    height: 81px;
+  }
+
+  #annual-plan {
+    width: 247px;
+    height: 48px;
+  }
+
+  #annual-plan-price {
+    width: 81px;
+    height: 41px;
+    margin-right: 50px;
+  }
+
+  #annual-plan-price div:first-of-type {
+    width: 81px;
+    height: 19px;
+    font-size: 14px;
+    line-height: 19px;
+    margin-bottom: 3px;
+  }
+
+  #annual-plan-price div:nth-child(2) {
+    width: 80px;
+    height: 19px;
+    font-size: 14px;
+    line-height: 19px;
+  }
+
+  #annual-plan-btn {
+    width: 48px;
+    height: 17px;
+  }
+
+  #annual-plan-btn button {
+    font-size: 13px;
+    line-height: 17px;
+  }
+
+  #card-btn-payment {
+    width: 279px;
+    height: 50px;
+    margin-top: 24px;
+  }
+
+  #card-btn-payment button {
+    width: 279px;
+    height: 50px;
+    font-size: 15px;
+    line-height: 20px;
+  }
+
+  #card-btn-cancel {
+    margin-top: 24px;
+  }
+}
