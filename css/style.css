@@ -1,0 +1,226 @@
+@import url("https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap");
+
+:root {
+  --primary-pale-blue: hsl(225, 100%, 94%);
+  --primary-bright-blue: hsl(245, 75%, 52%);
+  --neutral-very-pale-blue: hsl(225, 100%, 98%);
+  --neutral-desaturated-blue: hsl(224, 23%, 55%);
+  --neutral-dark-blue: hsl(223, 47%, 23%);
+  --active: #766cf1;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#main {
+  width: 1440px;
+  height: 900px;
+  background-image: url("../images/pattern-background-desktop.svg");
+  background-repeat: no-repeat;
+  background-color: #e0e8ff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#card {
+  width: 450px;
+  height: 697px;
+  border-radius: 20px;
+  box-shadow: 0px 40px 40px -20px rgba(13, 48, 189, 0.15);
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#card-img {
+  width: 450px;
+  height: 220px;
+}
+
+#card-img img {
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+
+#card-title {
+  width: 354px;
+  height: 37px;
+  margin-top: 45px;
+  font-family: "Red Hat Display", sans-serif;
+  font-weight: 800;
+  font-size: 28px;
+  line-height: 37px;
+  color: var(--neutral-dark-blue);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#card-subtitle {
+  width: 354px;
+  height: 78px;
+  margin-top: 17px;
+  font-family: "Red Hat Display", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 26px;
+  color: var(--neutral-desaturated-blue);
+  text-align: center;
+}
+
+#card-annual-plan {
+  width: 354px;
+  height: 98px;
+  border-radius: 10px;
+  background-color: var(--neutral-very-pale-blue);
+  display: flex;
+  align-items: center;
+  margin-top: 20px;
+}
+
+#annual-plan {
+  width: 306px;
+  height: 48px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+#annual-plan-img {
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  margin-left: 24px;
+  margin-right: 20px;
+}
+
+#annual-plan-price {
+  width: 92px;
+  height: 48px;
+  margin-right: 93px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+#annual-plan-price div:first-of-type {
+  width: 92px;
+  height: 21px;
+  font-family: "Red Hat Display", sans-serif;
+  font-size: 16px;
+  font-weight: 800;
+  line-height: 21px;
+  color: var(--neutral-dark-blue);
+  margin-bottom: 6px;
+}
+
+#annual-plan-price div:nth-child(2) {
+  width: 92px;
+  height: 21px;
+  font-family: "Red Hat Display", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 21px;
+  color: var(--neutral-desaturated-blue);
+}
+
+#annual-plan-btn {
+  width: 51px;
+  height: 19px;
+}
+
+#annual-plan-btn button {
+  border: 0;
+  padding: 0;
+  margin: 0;
+  font-family: "Red Hat Display", sans-serif;
+  font-size: 14px;
+  font-weight: bold;
+  line-height: 19px;
+  color: var(--primary-bright-blue);
+  text-decoration: underline;
+  background-color: transparent;
+}
+
+#annual-plan-btn button:hover {
+  color: var(--neutral-dark-blue);
+}
+
+#annual-plan-btn button:active {
+  color: var(--active);
+}
+
+#card-btn-payment {
+  width: 354px;
+  height: 50px;
+  margin-top: 32px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#card-btn-payment button {
+  border: 0;
+  padding: 0;
+  margin: 0;
+  background-color: transparent;
+  width: 354px;
+  height: 50px;
+  font-family: "Red Hat Display", sans-serif;
+  font-size: 15px;
+  font-weight: 800;
+  line-height: 20px;
+  color: #fff;
+  background-color: var(--primary-bright-blue);
+  box-shadow: 0px 20px 20px rgba(56, 42, 225, 0.2);
+  border-radius: 11px;
+}
+
+#card-btn-payment button:hover {
+  background-color: var(--neutral-dark-blue);
+}
+
+#card-btn-payment button:active {
+  background-color: var(--active);
+}
+
+#card-btn-cancel {
+  width: 96px;
+  height: 20px;
+  margin-top: 32px;
+}
+
+#card-btn-cancel button {
+  border: 0;
+  padding: 0;
+  margin: 0;
+  background-color: transparent;
+  font-family: "Red Hat Display", sans-serif;
+  font-size: 15px;
+  font-weight: 800;
+  line-height: 20px;
+  color: var(--neutral-desaturated-blue);
+}
+
+#card-btn-cancel button:hover {
+  color: var(--primary-pale-blue);
+}
+
+#card-btn-cancel button:active {
+  color: var(--neutral-dark-blue);
+}
