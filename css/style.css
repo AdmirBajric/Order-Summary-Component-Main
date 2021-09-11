@@ -155,6 +155,7 @@ body {
   color: var(--primary-bright-blue);
   text-decoration: underline;
   background-color: transparent;
+  cursor: pointer;
 }
 
 #annual-plan-btn button:hover {
@@ -189,6 +190,7 @@ body {
   background-color: var(--primary-bright-blue);
   box-shadow: 0px 20px 20px rgba(56, 42, 225, 0.2);
   border-radius: 11px;
+  cursor: pointer;
 }
 
 #card-btn-payment button:hover {
@@ -215,6 +217,7 @@ body {
   font-weight: 800;
   line-height: 20px;
   color: var(--neutral-desaturated-blue);
+  cursor: pointer;
 }
 
 #card-btn-cancel button:hover {
